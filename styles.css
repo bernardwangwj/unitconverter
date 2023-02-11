@@ -1,0 +1,153 @@
+.body {
+  position: relative;
+  width: 550px;
+  height: 285px;
+  margin: 55px auto 126px auto;
+  background-color: pink;
+  font-family: "Fira Sans", sans-serif;
+  /* box-sizing: 0; */
+}
+
+#container1 {
+  position: relative;
+  width: 550px;
+  height: 285px;
+  background: #6943ff;
+}
+
+#container2 {
+  position: relative;
+  width: 550px;
+  height: 444px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #f4f4f4;
+}
+#title {
+  position: absolute;
+  width: 448.4px;
+  height: 38px;
+  left: 51px;
+  top: 33px;
+
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  /* identical to box height, or 136% */
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+/* #unit-box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 117px;
+  height: 83px;
+  margin: 101px 216px 101px 217px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+} */
+
+#converted-value-input {
+  /* number to convert */
+  position: absolute;
+  width: 117px;
+  height: 83px;
+  margin: 101px 216px 101px 217px;
+
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 24px;
+  /* or 42% */
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+#convert-button {
+  position: absolute;
+  width: 117px;
+  height: 42px;
+  margin: 209px 216px 34px 217px;
+  padding: 9px 27px;
+  background: #ffffff;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-size: large;
+}
+
+.box1 {
+  width: 500px;
+  height: 108.57px;
+  position: absolute;
+  margin: 36px 25px 300px 25px;
+  /* white */
+  background: #ffffff;
+  border-radius: 4.68077px 0px 0px 0px;
+  color: 5A537B;
+}
+.box2 {
+  width: 500px;
+  height: 108.57px;
+  position: absolute;
+  margin: 168px 25px 167px 25px;
+  /* white */
+  background: #ffffff;
+  border-radius: 4.68077px 0px 0px 0px;
+  color: 5A537B;
+}
+
+.box3 {
+  width: 500px;
+  height: 108.57px;
+  position: absolute;
+  margin: 300px 25px 36px 25px;
+  /* white */
+  background: #ffffff;
+  border-radius: 4.68077px 0px 0px 0px;
+  color: 5A537B;
+}
+
+.metric-system {
+  position: absolute;
+  width: 346px;
+  height: 25px;
+  margin: 31px 77px 53px 77px;
+
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 20px;
+  /* or 100% */
+  text-align: center;
+
+  color: #5a537b;
+}
+.measurements {
+  position: absolute;
+  width: 346px;
+  height: 25px;
+  margin: 65px 77px 19px 77px;
+  /* text-sm/leading-5/font-normal */
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 17px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+  color: #353535;
+}
